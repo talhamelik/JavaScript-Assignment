@@ -1,0 +1,66 @@
+table {
+    display: inline-table;
+    width: 100%;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(222, 228, 233);
+  }
+  th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(30, 101, 255);
+    text-align: left;
+    width: 150px; /* Adjust the width value as needed */
+    height: 40px; 
+  }
+  .delete-button {
+    padding: 10px;
+    background-color: rgb(30, 101, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .delete-button:hover {
+    background-color: rgb(0, 77, 153);
+  }
+  
+  .delete-button:focus {
+    outline: none;
+  }
+  header{
+    padding: 50px;
+    font-size:xx-large;
+    font-weight: 600;
+  }
+  .go-back-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(30, 101, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none; /* Add underline to the link */
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .go-back-button:hover {
+    background-color: rgb(0, 77, 153);
+  }
+  
+  .go-back-button:focus {
+    outline: none;
+  }
+  

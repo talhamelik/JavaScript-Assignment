@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Library Management System</h1>
+    </header>
+    <h2>Add New Book</h2>
+    <form id="book-form">
+        <input type="text" id="name" placeholder="Book Name" required>
+        <input type="text" id="author" placeholder="Author Name" required>
+        <input type="text" id="publisher" placeholder="Publisher Name" required>
+        <input type="date" id="publication-date" required>
+        <button type="submit">Submit</button>
+        <button type="exit" onclick="redirectTomain()">Go back</button>
+    </form>
+    <script src="page.js"></script>
+</body>
+</html>

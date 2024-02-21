@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #book-form input[type="text"],
+  #book-form input[type="date"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+  
+  #book-form button[type="submit"] {
+    padding: 5px 10px;
+    width: 10%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(30, 101, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  #book-form button[type="submit"]:hover {
+    background-color: rgb(0, 71, 179);
+}
+  #book-form button[type="exit"] {
+    width: 10%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(30, 101, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 8px;
+  }
+  #book-form button[type="exit"]:hover {
+    background-color: rgb(0, 71, 179);
+}
