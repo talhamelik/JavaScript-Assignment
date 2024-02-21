@@ -42,9 +42,4 @@ exitButton.addEventListener("click", function(event) {
   // Retrieve the form data from local storage
   const formData = JSON.parse(localStorage.getItem("formData"));
 
-  // Reset the form
-  bookForm.reset();
-
-  // Clear the form data from local storage
-  localStorage.removeItem("formData");
 });
