@@ -41,4 +41,9 @@ exitButton.addEventListener("click", function(event) {
   event.preventDefault(); 
   // Retrieve the form data from local storage
   const formData = JSON.parse(localStorage.getItem("formData"));
+<<<<<<< HEAD
 });
+=======
+
+});
+>>>>>>> f8b028ba1c2b24db62b6e183fe2d89ac4224d120
